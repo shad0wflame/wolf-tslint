@@ -1,8 +1,7 @@
 const path = require('path');
 const ts = require('typescript');
 const { Linter, Configuration } = require('tslint');
-const rootPath = path.join(__dirname, '..', '..');
-const {WolfLinter, WolfLinterError} = require(path.join(rootPath, 'bin', 'wolflinter'));
+const {WolfLinter, WolfLinterError} = require(path.join(binPath, 'wolflinter'));
 
 /*
 ------------------------------------------
